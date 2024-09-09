@@ -1,0 +1,39 @@
+.order-list {
+  padding: 20px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.order-table ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.order-table li {
+  margin: 2px 0;
+}
